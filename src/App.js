@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./lib/firebase.js";
+import { auth } from "./lib/firebase.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React with tailwindcss <br /> Firebase Setup 😎
         </p>
         <a
           className="App-link"
